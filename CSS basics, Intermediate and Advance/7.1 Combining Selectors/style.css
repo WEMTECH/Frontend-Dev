@@ -1,0 +1,24 @@
+/* Write your code here: */
+h1, h2{
+    color: blueviolet;
+}
+
+/* parent to child relationship */
+.box > p {
+    color: firebrick;
+}
+/* Descendant relationship */
+ .box .list {
+    color: blue;
+ } 
+
+ /* Chaining Slector */
+ li.done{
+    color: seagreen;
+ }
+ 
+ /*Combining Combiners*/
+
+ ul p.done{
+    font-size: 0.5rem;
+ }
