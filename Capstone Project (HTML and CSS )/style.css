@@ -177,7 +177,7 @@ body{
     vertical-align: middle;
     display: inline-block;
     border-radius: 5px;
-    object-fit: cover;
+    object-fit:cover;
 
 }
 .gallery-div{
@@ -199,7 +199,8 @@ body{
 .eight{
     grid-column: span 2;
 }
-@media (min-width:200px) and (max-width:1200px){
+
+@media (min-width:201px) and (max-width:1200px){
     .mid-town{
         display: grid;
         grid-template-columns: auto auto;
@@ -258,4 +259,8 @@ body{
         display: flex;
         flex-direction: column;
     }
+    /* .gallery-div{
+        display: inline-block;
+    } */
+   
 }
