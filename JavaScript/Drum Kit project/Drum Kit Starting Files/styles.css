@@ -1,0 +1,129 @@
+/* Vedio section */
+.bd{
+  background-color: black;
+  color: #ffff;
+}
+h2{
+  color: #e91b6a;
+  font-size: 2rem;
+}
+.word{
+  position: absolute;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.vedio_page{
+  width: 100%;
+  height: 100vh;
+}
+.vedio_tag{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 100vh;
+}
+video{
+  object-fit: contain;
+  display: inline-flex;
+}
+/* =================================================== */
+
+
+
+body {
+  text-align: center;
+  background-image: radial-gradient( green 5%,black 85%);
+}
+.drum_class{
+  height: 100vh;
+  width: 100%;
+}
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #76da04;
+
+}
+
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url("images/kick.png");
+}
+
+.a {
+  background-image: url("images/snare.png");
+}
+
+.s {
+  background-image: url("images/crash.png");
+}
+
+.d {
+background-image: url("images/tom1.png");
+}
+
+.j {
+  background-image: url("images/tom2.png");
+}
+
+.k {
+  background-image: url("images/tom3.png");
+  
+}
+
+.l {
+  background-image: url("images/tom4.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 100%;
+  width: 10rem;
+  height: 10rem;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.foot{
+font-size: 2rem;
+display:flex;
+justify-content: end;
+align-items: end;
+position:sticky;
+top:0;
+}
